@@ -1,0 +1,60 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+// @import "../node_modules/vuetify/src/styles/styles.sass";
+// @import "../node_modules/vuetify/src/styles/tools/_functions.sass";
+// @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+.text-transform-none {
+  text-transform: none !important;
+}
+
+.box-shadow-none {
+  box-shadow: none !important;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.align-center {
+  text-align: center !important;
+}
+
+.error--text {
+  color: #ff5252 !important;
+  caret-color: #ff5252 !important;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.v-label--active {
+  position: absolute;
+  top: -3px !important;
+  background: #fff;
+  padding: 0 5px !important;
+  transform: translateY(-6px) scale(0.85) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.v-list__tile--active .v-list__tile__action:first-of-type .v-icon {
+  color: #827af3;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+.width-40 {
+  width: 40px;
+}

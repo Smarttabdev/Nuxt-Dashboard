@@ -1,0 +1,39 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import '../node_modules/vuetify/src/styles/styles.sass';
+@import '../node_modules/vuetify/src/styles/tools/_functions.sass';
+
+$body-font-family: 'Poppins' !important;
+$heading-font-family: 'Poppins' !important;
+
+.v-application {
+  .display-1,
+  .display-2,
+  .display-3,
+  .display-4,
+  .headline,
+  .title,
+  .headline,
+  .subtitle-1,
+  .subtitle-2,
+  .body-1,
+  .body-2,
+  .caption,
+  .overline {
+    font-family: poppins !important;
+  }
+}
+
+$btn-font-sizes: () !default;
+$btn-font-sizes: map-deep-merge(
+  (
+    'x-small': .625rem,
+    'small': .75rem,
+    'default': .875rem,
+    'large': .875rem,
+    'x-large': 1rem
+  ),
+  $btn-font-sizes
+);
